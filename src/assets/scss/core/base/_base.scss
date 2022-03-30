@@ -9,7 +9,8 @@ html {
 }
 
 body {
-	background: color-bg(body); /* Fallback for when there is no custom background color defined. */
+	// background: color-bg(body); /* Fallback for when there is no custom background color defined. */
+	background: #0f021f;
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
