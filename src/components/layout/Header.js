@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
+import Button from '../elements/Button';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -112,7 +113,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu} style={{color: '#EFBC39'}}>Something</Link>
+                     <a href="https://twitter.com/" target="_blank" onClick={closeMenu} style={{color: '#EFBC39'}}>Follow Us</a>
                     </li>
                   </ul>
                   {!hideSignin &&
@@ -120,7 +121,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>About</Link>
+                        <Button tag="a" href="#about" className="button button-primary button-wide-mobile button-sm">About</Button>
                       </li>
                     </ul>}
                 </div>

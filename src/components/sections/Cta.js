@@ -37,7 +37,6 @@ class Cta extends React.Component {
         draggable: true,
         progress: undefined,
         }))
-      // .then(() => alert('Success'))
       .catch(error => alert(error));
 
     e.preventDefault();
@@ -48,7 +47,7 @@ class Cta extends React.Component {
   render() {
     const { name, email, message } = this.state;
     return (
-      <div className="container" style={{marginTop: '100px', width: '60%'}}>
+      <div className="container" id="contact" style={{marginTop: '100px', width: '60%'}}>
         <SectionHeader data={sectionHeader} className="center-content" />
         <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={this.handleSubmit} >
           <div>
@@ -57,17 +56,17 @@ class Cta extends React.Component {
           </p>
           <Input type="text" placeholder="Full name*" name="name" value={name} onChange={this.handleChange} />   
           </div>
-          <div>
+          <div style={{marginTop: '20px'}}>
             <Input type="email" placeholder="Email*" name="email" value={email} onChange={this.handleChange} />
           </div>
-          <div>
+          <div style={{marginTop: '20px'}}>
             <select style={{width: '100%', height: '50px'}} value={this.state.value} onChange={this.handleChange}>
               <option disabled selected>I'm interested in...</option>
               <option value="thirty">30-minute consulting session</option>
               <option value="discovery">Discovery call to learn more about long term consulting partnerships</option>
             </select>
           </div>
-          <div>
+          <div style={{marginTop: '20px'}}>
             <Input type="textarea" name="message" placeholder="Message*" value={message} onChange={this.handleChange} />
           </div>
           <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
