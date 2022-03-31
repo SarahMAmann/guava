@@ -1,7 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
-import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
 import Button from '../elements/Button';
 
@@ -113,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                     <a href="https://twitter.com/" target="_blank" onClick={closeMenu} style={{color: '#EFBC39'}}>Follow Us</a>
+                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" onClick={closeMenu} style={{color: '#EFBC39'}}>Follow Us</a>
                     </li>
                   </ul>
                   {!hideSignin &&
