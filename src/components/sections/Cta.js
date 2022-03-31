@@ -54,20 +54,20 @@ class Cta extends React.Component {
           <p className="hidden">
             <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
           </p>
-          <Input type="text" placeholder="Full name*" name="name" value={name} onChange={this.handleChange} />   
+          <Input style={{borderRadius: '4px'}} type="text" placeholder="Full name*" name="name" value={name} onChange={this.handleChange} />   
           </div>
           <div style={{marginTop: '20px'}}>
-            <Input type="email" placeholder="Email*" name="email" value={email} onChange={this.handleChange} />
+            <Input style={{borderRadius: '4px'}} type="email" placeholder="Email*" name="email" value={email} onChange={this.handleChange} />
           </div>
           <div style={{marginTop: '20px'}}>
-            <select style={{width: '100%', height: '50px'}} value={this.state.value} onChange={this.handleChange}>
+            <select style={{width: '100%', height: '50px', borderRadius: '4px'}} value={this.state.value} onChange={this.handleChange}>
               <option disabled selected>I'm interested in...</option>
               <option value="thirty">30-minute consulting session</option>
               <option value="discovery">Discovery call to learn more about long term consulting partnerships</option>
             </select>
           </div>
           <div style={{marginTop: '20px'}}>
-            <Input type="textarea" name="message" placeholder="Message*" value={message} onChange={this.handleChange} />
+            <Input style={{borderRadius: '4px'}} type="textarea" name="message" placeholder="Message*" value={message} onChange={this.handleChange} />
           </div>
           <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
             <Button color="primary" type="submit">Submit</Button>
