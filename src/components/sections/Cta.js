@@ -34,7 +34,6 @@ class Cta extends React.Component {
   }
 
   handleSubmit = e => {
-    console.log('STATE:', this.state);
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -75,7 +74,7 @@ class Cta extends React.Component {
     return (
       <div className="container" id="contact" style={{marginTop: '100px', width: '60%'}}>
         <SectionHeader data={sectionHeader} className="center-content" />
-        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={this.handleSubmit} >
+        <form name="contact" netlify method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={this.handleSubmit} >
           <div>
           <p className="hidden">
             <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
