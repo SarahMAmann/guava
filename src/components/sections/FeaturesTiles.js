@@ -72,11 +72,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Web3 Advisory
-                    </h4>
+                    Web3 Coaching
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Not sure what to do next? We help you achieve your project goals and give you access to our partner companies in various web3 industries to get the job done.
+                  </p>
                 </div>
               </div>
             </div>
@@ -94,11 +94,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    DAOs
-                    </h4>
+                    Accessibility
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    We believe web3 is for everyone! That’s why we have options for both small and large scale projects, and offer advice for all knowledge levels.
+                  </p>
                 </div>
               </div>
             </div>
@@ -116,11 +116,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Educational Services
-                    </h4>
+                    Metaverse Marketing
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Marketing is different in the metaverse. We can help you navigate the new <span style={{fontFamily: 'bradley hand'}}>vibe</span> with an approach to digital marketing that puts building strong communities first.
+                  </p>
                 </div>
               </div>
             </div>
@@ -138,11 +138,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Marketing & Community
-                    </h4>
+                    NFT Projects
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    From sourcing a team to organizing a successful launch, we help you create a roadmap to a drop that maximizes your revenue potential and offers brand new channels to connect with your community.
+                  </p>
                 </div>
               </div>
             </div>
@@ -160,11 +160,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Legal
-                    </h4>
+                    DAOs
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    We help you determine if a DAO is the right choice for your project, and cut through all the noise to find the right tools and resources you need to build a long-lasting organization.
+                  </p>
                 </div>
               </div>
             </div>
@@ -182,11 +182,11 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Tooling
-                    </h4>
+                    Technology
+                  </h4>
                   <p className="m-0 text-sm">
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.
-                    </p>
+                    Gain or improve your understanding in web3 software with our firsthand experience in everything from development systems to cost so you can make the right choices for your project.
+                  </p>
                 </div>
               </div>
             </div>

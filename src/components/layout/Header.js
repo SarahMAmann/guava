@@ -112,7 +112,7 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                     <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" onClick={closeMenu} style={{color: '#EFBC39'}}>Follow Us</a>
+                     <a href="https://twitter.com/guavatech_io" target="_blank" rel="noopener noreferrer" onClick={closeMenu} style={{color: '#EFBC39'}}>Follow Us</a>
                     </li>
                   </ul>
                   {!hideSignin &&
