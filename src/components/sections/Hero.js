@@ -95,7 +95,7 @@ const Hero = ({
                 height={504} />
             </a> */}
               <Image
-                src={require('./../../assets/images/guava.gif')}
+                src={require('./../../assets/images/guava-logo.png')}
                 alt="Guava fruit"
                 width={250}
                 height={250} />
