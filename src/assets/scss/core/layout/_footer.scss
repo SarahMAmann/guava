@@ -159,6 +159,10 @@
 			margin-bottom: $footer-inner--padding-v;
 		}
 	}
+
+	.mobile-hide-logo {
+		display: none;
+	}
 }
 
 @include media( '>medium' ) {
