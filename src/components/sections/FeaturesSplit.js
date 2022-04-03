@@ -109,7 +109,7 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                  <img  src={require('./../../assets/images/sarah.jpg')}
+                  <img alt="photo of Sarah" src={require('./../../assets/images/sarah.jpg')}
                   style={{height: '300px', width: '300px', borderRadius: '50%'}} />
                 {/* <Image
                   src={require('./../../assets/images/sarah.JPEG')}

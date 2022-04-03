@@ -44,8 +44,8 @@ const Testimonial = ({
   );
 
   const sectionHeader = {
-    title: 'Client Testimonials',
-    paragraph: 'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.'
+    title: 'What Our Clients Say',
+    paragraph: 'Why we do what we do. We\'re here to make sure your web3 project is a success!'
   };
 
   return (
