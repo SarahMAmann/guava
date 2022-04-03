@@ -130,3 +130,9 @@ td {
 .hidden {
 	display: none;
 }
+
+.test {
+	background-image: linear-gradient(to left, #F88DE3, #BD96ED, #72A6E8, #2DA021, #EFBC39);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

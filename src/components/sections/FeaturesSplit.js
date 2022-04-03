@@ -100,7 +100,7 @@ const FeaturesSplit = ({
                   Sarah Amann
                   </h3>
                 <p className="m-0" style={{fontFamily: 'Courier New'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Sarah is a software engineer with 5+ years of involvement in the blockchain industry. She is a core team member at a DeFi options trading startup, and contributes to a number of web3 projects in consulting and developer advocacy roles. She also creates educational blockchain content on social media.
                   </p>
               </div>
               <div className={
@@ -109,12 +109,14 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/profile-image.png')}
+                  <img  src={require('./../../assets/images/sarah.jpg')}
+                  style={{height: '300px', width: '300px', borderRadius: '50%'}} />
+                {/* <Image
+                  src={require('./../../assets/images/sarah.JPEG')}
                   alt="Features split 02"
-                  width={528}
-                  height={396}
-                  style={{height: '200', width: '300px', borderRadius: '50%'}} />
+                  height={100}
+                  width={100}
+                  style={{height: '100', width: '100'}} /> */}
               </div>
             </div>
 

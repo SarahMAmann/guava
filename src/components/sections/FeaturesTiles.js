@@ -2,6 +2,7 @@ import React from 'react';
 import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
+import MainSectionHeader from './partials/MainSectionHeader';
 import Image from '../elements/Image';
 
 const propTypes = {
@@ -44,7 +45,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'We help you build for the metaverse.',
+    title: 'We help you build for the ',
+    emphasis: 'metaverse.',
     paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   };
 
@@ -55,7 +57,7 @@ const FeaturesTiles = ({
     >
       <div className="container" id="about">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" />
+          <MainSectionHeader data={sectionHeader} className="center-content" />
           <div className={tilesClasses}>
 
             <div className="tiles-item reveal-from-bottom">
