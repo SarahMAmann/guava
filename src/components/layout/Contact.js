@@ -10,6 +10,14 @@ const encode = (data) => {
     .join("&");
 }
 
+const createFormDataObj = data => {
+    const formData = new FormData();
+    Object.keys(data).forEach(k => {
+      formData.append(k, data[k]);
+    });
+    return formData;
+  };
+
 
 class Contact extends React.Component {
   constructor(props) {
