@@ -75,9 +75,6 @@ class Contact extends React.Component {
             <Input style={{borderRadius: '4px'}} type="text" placeholder="Name" name="name" required value={name} onChange={this.handleChange} />   
           </div>
           <div style={{marginTop: '20px'}}>
-            <Input style={{borderRadius: '4px'}} type="email" placeholder="Email" name="email" required value={email} onChange={this.handleChange} />
-          </div>
-          <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="text" placeholder="Message" name="message" required value={message} onChange={this.handleChange} />
           </div>
           {/* <div style={{marginTop: '20px'}}>
