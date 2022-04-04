@@ -19,10 +19,16 @@ class Contact extends React.Component {
 
   handleSubmit = e => {
       console.log(this.state);
+      const data = {
+        'form-name': 'contact-us',
+        name: this.state.name,
+        message: this.state.message,
+      };
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...this.state })
+      body: new URLSearchParams(createFormDataObj(data)).toString(),
+    //   body: encode({ "form-name": "contact", ...this.state })
     })
       .then(() => toast.success("Thank you! We'll get back to you shortly.", {
         position: "top-center",
