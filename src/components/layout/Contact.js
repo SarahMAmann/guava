@@ -68,16 +68,16 @@ class Contact extends React.Component {
 
   render() {
     const { name, email, message } = this.state;
-    const options = [
-        {
-          name: '30-minute consulting session',
-          value: 'thirty'
-        },
-        {
-          name: 'Discovery call to learn more about long term consulting partnerships',
-          value: 'discovery'
-        }
-      ];
+    // const options = [
+    //     {
+    //       name: '30-minute consulting session',
+    //       value: 'thirty'
+    //     },
+    //     {
+    //       name: 'Discovery call to learn more about long term consulting partnerships',
+    //       value: 'discovery'
+    //     }
+    //   ];
     return (
         <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={this.handleSubmit} >
             <input type="hidden" name="form-name" value="contact" />
