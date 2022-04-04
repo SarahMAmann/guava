@@ -90,6 +90,9 @@ class Contact extends React.Component {
           <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="email" placeholder="Email" name="email" required value={email} onChange={this.handleChange} />
           </div>
+          <p>
+            <label>Message: <textarea name="message" placeholder="Message" required value={message} onChange={this.handleChange}></textarea></label>
+          </p>
           {/* <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="text" placeholder="Location/Timezone" name="timezone" required value={timezone} onChange={this.handleChange} />
           </div>
@@ -103,9 +106,9 @@ class Contact extends React.Component {
               ))}
             </select>
           </div> */}
-          <div style={{marginTop: '20px'}}>
+          {/* <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="textarea" name="message" placeholder="Message" required value={message} onChange={this.handleChange} />
-          </div>
+          </div> */}
           <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
             <Button color="primary" type="submit">Submit</Button>
             <ToastContainer />
