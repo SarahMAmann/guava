@@ -14,7 +14,7 @@ const encode = (data) => {
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", callType: "", message: "", timezone: ""
+    this.state = { name: "", email: "", message: "",
     //   options: [
     //     {
     //       name: '30-minute consulting session',
@@ -58,16 +58,16 @@ class Contact extends React.Component {
     this.setState({
       name: '',
       email: '',
-      callType: '',
+    //   callType: '',
       message: '',
-      timezone: ''
+    //   timezone: ''
     });
   };
 
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { name, email, timezone, callType, message } = this.state;
+    const { name, email, message } = this.state;
     const options = [
         {
           name: '30-minute consulting session',
@@ -90,7 +90,7 @@ class Contact extends React.Component {
           <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="email" placeholder="Email" name="email" required value={email} onChange={this.handleChange} />
           </div>
-          <div style={{marginTop: '20px'}}>
+          {/* <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="text" placeholder="Location/Timezone" name="timezone" required value={timezone} onChange={this.handleChange} />
           </div>
           <div style={{marginTop: '20px'}}>
@@ -102,7 +102,7 @@ class Contact extends React.Component {
                 </option>
               ))}
             </select>
-          </div>
+          </div> */}
           <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="textarea" name="message" placeholder="Message" required value={message} onChange={this.handleChange} />
           </div>
