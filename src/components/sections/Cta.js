@@ -8,15 +8,9 @@ const sectionHeader = {
   paragraph: ''
 };
 
-class Cta extends React.Component {
-  render() {
-    return (
-      <div className="container" id="contact" style={{marginTop: '100px', width: '60%'}}>
-        <SectionHeader data={sectionHeader} className="center-content" />
-        <Contact />
-      </div>
-    );
-  }
-}
-
-export default Cta;
+export const Cta = () => (
+  <div className="container" id="contact" style={{marginTop: '100px', width: '60%'}}>
+    <SectionHeader data={sectionHeader} className="center-content" />
+    <Contact />
+  </div>
+);
