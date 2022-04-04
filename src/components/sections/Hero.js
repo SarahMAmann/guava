@@ -70,7 +70,7 @@ const Hero = ({
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#contact" style={{borderRadius: '4px'}}>
+                  <Button tag="a" color="primary" wideMobile href="#contactSection" style={{borderRadius: '4px'}}>
                     Get started
                     </Button>
                   {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/" style={{borderRadius: '4px'}}>

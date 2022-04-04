@@ -9,7 +9,7 @@ const sectionHeader = {
 };
 
 export const Cta = () => (
-  <div className="container" id="contact" style={{marginTop: '100px', width: '60%'}}>
+  <div className="container" id="contactSection" style={{marginTop: '100px', width: '60%'}}>
     <SectionHeader data={sectionHeader} className="center-content" />
     <Contact />
   </div>

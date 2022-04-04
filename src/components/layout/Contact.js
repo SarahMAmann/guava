@@ -71,10 +71,10 @@ class Contact extends React.Component {
             <p className="hidden">
                 <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
             </p>
-            <Input style={{borderRadius: '4px'}} type="text" placeholder="Name" name="name" required value={name} onChange={this.handleChange} />   
+            <Input style={{borderRadius: '4px'}} type="text" placeholder="Name" name="name" id="name" required value={name} onChange={this.handleChange} />   
           </div>
           <div style={{marginTop: '20px'}}>
-            <Input style={{borderRadius: '4px'}} type="text" placeholder="Message" name="message" required value={message} onChange={this.handleChange} />
+            <Input style={{borderRadius: '4px'}} type="text" placeholder="Message" name="message" id="message" required value={message} onChange={this.handleChange} />
           </div>
           {/* <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="text" placeholder="Location/Timezone" name="timezone" required value={timezone} onChange={this.handleChange} />
