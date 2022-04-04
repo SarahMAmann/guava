@@ -14,18 +14,7 @@ const encode = (data) => {
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", message: "",
-    //   options: [
-    //     {
-    //       name: '30-minute consulting session',
-    //       value: 'thirty'
-    //     },
-    //     {
-    //       name: 'Discovery call to learn more about long term consulting partnerships',
-    //       value: 'discovery'
-    //     }
-    //   ]
-    };
+    this.state = { name: "", email: "", message: "" };
   }
 
   handleSubmit = e => {
@@ -58,9 +47,7 @@ class Contact extends React.Component {
     this.setState({
       name: '',
       email: '',
-    //   callType: '',
-      message: '',
-    //   timezone: ''
+      message: ''
     });
   };
 
@@ -82,17 +69,17 @@ class Contact extends React.Component {
         <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={this.handleSubmit} >
             {/* <input type="hidden" name="form-name" value="contact" /> */}
           <div>
-          <p className="hidden">
-            <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-          </p>
-          <Input style={{borderRadius: '4px'}} type="text" placeholder="Name" name="name" required value={name} onChange={this.handleChange} />   
+            <p className="hidden">
+                <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+            </p>
+            <Input style={{borderRadius: '4px'}} type="text" placeholder="Name" name="name" required value={name} onChange={this.handleChange} />   
           </div>
           <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="email" placeholder="Email" name="email" required value={email} onChange={this.handleChange} />
           </div>
-          <p>
-            <label>Message: <textarea name="message" placeholder="Message" required value={message} onChange={this.handleChange}></textarea></label>
-          </p>
+          <div style={{marginTop: '20px'}}>
+            <Input style={{borderRadius: '4px'}} type="text" placeholder="Message" name="message" required value={message} onChange={this.handleChange} />
+          </div>
           {/* <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="text" placeholder="Location/Timezone" name="timezone" required value={timezone} onChange={this.handleChange} />
           </div>
