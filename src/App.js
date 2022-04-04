@@ -9,6 +9,8 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
+import Footer from './components/layout/Footer';
+import {Cta} from './components/sections/Cta';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -32,6 +34,7 @@ const App = () => {
   }, [location]);
 
   return (
+    <div>
     <ScrollReveal
       ref={childRef}
       children={() => (
@@ -40,6 +43,21 @@ const App = () => {
           <Redirect to="/" />
         </Switch>
       )} />
+        {/* <form name="contact"  method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
+        <p>
+          <label>Name <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Email <input type="email" name="email" /></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form> */}
+      <Cta />
+      <Footer />
+    </div>
   );
 }
 
