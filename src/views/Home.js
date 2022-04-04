@@ -15,7 +15,7 @@ const Home = () => {
       <FeaturesSplit invertMobile topDivider imageFill className="illustration-section-02" />
       <Testimonial topDivider />
       {/* <Cta /> */}
-      <form name="contact" netlify>
+      <form name="contact"  method="POST" data-netlify="true" netlify-honeypot="bot-field">
         <p>
           <label>Name <input type="text" name="name" /></label>
         </p>
