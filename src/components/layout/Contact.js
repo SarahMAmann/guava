@@ -23,19 +23,19 @@ class Contact extends React.Component {
 
 
   render() {
-    useEffect(() => {
-      if ( window.location.search.includes('success=true') ) {
-        toast.success("Thank you! We'll get back to you shortly.", {
-        position: "top-center",
-        autoClose: 5000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        })
-      }
-    }, []);
+    // useEffect(() => {
+    //   if ( window.location.search.includes('success=true') ) {
+    //     toast.success("Thank you! We'll get back to you shortly.", {
+    //     position: "top-center",
+    //     autoClose: 5000,
+    //     hideProgressBar: false,
+    //     closeOnClick: true,
+    //     pauseOnHover: true,
+    //     draggable: true,
+    //     progress: undefined,
+    //     })
+    //   }
+    // }, []);
     // const notify = () => toast.success("Thank you! We'll get back to you shortly.", {
     //       position: "top-center",
     //       autoClose: 5000,
