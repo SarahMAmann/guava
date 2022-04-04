@@ -1,8 +1,8 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Input from '../elements/Input';
 import Button from '../elements/Button';
 import Select from 'react-select';
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -56,7 +56,7 @@ class Contact extends React.Component {
         }
       ];
     return (
-        <form name="contact" action="/success=true" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
+        <form name="contact" action="/success" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
             <input type="hidden" name="form-name" value="contact" />
           <div>
             <p className="hidden">
