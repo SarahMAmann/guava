@@ -14,7 +14,7 @@ const encode = (data) => {
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", message: "" };
+    this.state = { name: "", message: "" };
   }
 
   handleSubmit = e => {
@@ -46,7 +46,6 @@ class Contact extends React.Component {
     e.preventDefault();
     this.setState({
       name: '',
-      email: '',
       message: ''
     });
   };
@@ -54,7 +53,7 @@ class Contact extends React.Component {
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { name, email, message } = this.state;
+    const { name, message } = this.state;
     // const options = [
     //     {
     //       name: '30-minute consulting session',
