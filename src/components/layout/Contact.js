@@ -20,10 +20,10 @@ import 'react-toastify/dist/ReactToastify.css';
 
 
 class Contact extends React.Component {
-  constructor(props) {
-    super(props);
-    // this.state = { name: "", message: "" };
-  }
+//   constructor(props) {
+//     super(props);
+//     // this.state = { name: "", message: "" };
+//   }
 
 //   handleSubmit = e => {
 //       console.log(this.state);
