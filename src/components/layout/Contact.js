@@ -68,7 +68,7 @@ class Contact extends React.Component {
   render() {
     const { name, email, timezone, callType, message, options} = this.state;
     return (
-        <form name="contact" netlify method="POST" netlify-honeypot="bot-field" onSubmit={this.handleSubmit} >
+        <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={this.handleSubmit} >
           <div>
           <p className="hidden">
             <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
