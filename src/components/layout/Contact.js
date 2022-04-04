@@ -17,7 +17,7 @@ class Contact extends React.Component {
         }
       ];
     return (
-        <form name="contact" action="https://brilliant-belekoy-b5e255.netlify.app/success" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
+        <form name="contact" action="/" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
             <input type="hidden" name="form-name" value="contact" />
           <div>
             <p className="hidden">
