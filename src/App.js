@@ -11,7 +11,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 import Home from './views/Home';
 import Success from './views/Success';
 import Footer from './components/layout/Footer';
-import {Cta} from './components/sections/Cta';
+// import {Cta} from './components/sections/Cta';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
