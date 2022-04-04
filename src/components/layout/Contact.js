@@ -4,11 +4,11 @@ import Button from '../elements/Button';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const encode = (data) => {
-    return Object.keys(data)
-    .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
-    .join("&");
-}
+// const encode = (data) => {
+//     return Object.keys(data)
+//     .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+//     .join("&");
+// }
 
 const createFormDataObj = data => {
     const formData = new FormData();
