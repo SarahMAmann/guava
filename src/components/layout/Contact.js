@@ -1,6 +1,6 @@
 import React from 'react';
-// import Input from '../elements/Input';
-// import Button from '../elements/Button';
+import Input from '../elements/Input';
+import Button from '../elements/Button';
 // import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -105,7 +105,7 @@ class Contact extends React.Component {
           </div>
           <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
             <Button color="primary" type="submit" value="Submit message">Submit</Button>
-            <ToastContainer />
+            {/* <ToastContainer /> */}
           </div>
         </form>
 
