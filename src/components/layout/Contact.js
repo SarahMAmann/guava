@@ -9,19 +9,33 @@ import 'react-toastify/dist/ReactToastify.css';
 
 class Contact extends React.Component {
 
- handleClick() {
-  toast.success("Thank you! We'll get back to you shortly.", {
-    position: "top-center",
-    autoClose: 5000,
-    hideProgressBar: false,
-    closeOnClick: true,
-    pauseOnHover: true,
-    draggable: true,
-    progress: undefined,
-    })
- }
+//  handleClick() {
+//   toast.success("Thank you! We'll get back to you shortly.", {
+//     position: "top-center",
+//     autoClose: 5000,
+//     hideProgressBar: false,
+//     closeOnClick: true,
+//     pauseOnHover: true,
+//     draggable: true,
+//     progress: undefined,
+//     })
+//  }
+
 
   render() {
+    useEffect(() => {
+      if ( window.location.search.includes('success=true') ) {
+        toast.success("Thank you! We'll get back to you shortly.", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        })
+      }
+    }, []);
     // const notify = () => toast.success("Thank you! We'll get back to you shortly.", {
     //       position: "top-center",
     //       autoClose: 5000,
@@ -42,7 +56,7 @@ class Contact extends React.Component {
         }
       ];
     return (
-        <form name="contact" action="/" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
+        <form name="contact" action="/success=true" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
             <input type="hidden" name="form-name" value="contact" />
           <div>
             <p className="hidden">
