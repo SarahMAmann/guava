@@ -9,6 +9,7 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
+import Success from './views/Success';
 import Footer from './components/layout/Footer';
 import {Cta} from './components/sections/Cta';
 
@@ -40,10 +41,11 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <AppRoute exact path="/success" component={Success} />
           <Redirect to="/" />
         </Switch>
       )} />
-      <Cta />
+      {/* <Cta /> */}
       <Footer />
     </div>
   );
