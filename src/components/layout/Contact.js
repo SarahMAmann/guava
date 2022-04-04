@@ -14,7 +14,7 @@ const encode = (data) => {
 class Contact extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { name: "", email: "", callType: "", message: "", timezone: "",
+    this.state = { name: "", email: "", callType: "", message: "", timezone: ""
     //   options: [
     //     {
     //       name: '30-minute consulting session',
@@ -29,6 +29,7 @@ class Contact extends React.Component {
   }
 
   handleSubmit = e => {
+      console.log(this.state);
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
