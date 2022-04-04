@@ -15,16 +15,16 @@ class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.state = { name: "", email: "", callType: "", message: "", timezone: "",
-      options: [
-        {
-          name: '30-minute consulting session',
-          value: 'thirty'
-        },
-        {
-          name: 'Discovery call to learn more about long term consulting partnerships',
-          value: 'discovery'
-        }
-      ]
+    //   options: [
+    //     {
+    //       name: '30-minute consulting session',
+    //       value: 'thirty'
+    //     },
+    //     {
+    //       name: 'Discovery call to learn more about long term consulting partnerships',
+    //       value: 'discovery'
+    //     }
+    //   ]
     };
   }
 
@@ -66,7 +66,17 @@ class Contact extends React.Component {
   handleChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { name, email, timezone, callType, message, options} = this.state;
+    const { name, email, timezone, callType, message } = this.state;
+    const options = [
+        {
+          name: '30-minute consulting session',
+          value: 'thirty'
+        },
+        {
+          name: 'Discovery call to learn more about long term consulting partnerships',
+          value: 'discovery'
+        }
+      ];
     return (
         <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" onSubmit={this.handleSubmit} >
             <input type="hidden" name="form-name" value="contact" />
