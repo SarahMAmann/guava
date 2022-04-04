@@ -9,28 +9,28 @@ import 'react-toastify/dist/ReactToastify.css';
 
 class Contact extends React.Component {
 
-//  handleClick() {
-//   toast.success("Thank you! We'll get back to you shortly.", {
-//     position: "top-center",
-//     autoClose: 5000,
-//     hideProgressBar: false,
-//     closeOnClick: true,
-//     pauseOnHover: true,
-//     draggable: true,
-//     progress: undefined,
-//     })
-//  }
+ handleClick() {
+  toast.success("Thank you! We'll get back to you shortly.", {
+    position: "top-center",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    })
+ }
 
   render() {
-    const notify = () => toast.success("Thank you! We'll get back to you shortly.", {
-          position: "top-center",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: true,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          });
+    // const notify = () => toast.success("Thank you! We'll get back to you shortly.", {
+    //       position: "top-center",
+    //       autoClose: 5000,
+    //       hideProgressBar: false,
+    //       closeOnClick: true,
+    //       pauseOnHover: true,
+    //       draggable: true,
+    //       progress: undefined,
+    //       });
     const options = [
         {
           label: '30-minute consulting session',
@@ -63,7 +63,7 @@ class Contact extends React.Component {
             <Input style={{borderRadius: '4px'}} type="textarea" name="message" id="message" placeholder="Message" required />
           </div>
           <div style={{width: '100%', display: 'flex', justifyContent: 'center', marginTop: '10px'}}>
-            <Button color="primary" type="submit" value="Submit message" onclick={notify}>Submit</Button>
+            <Button color="primary" type="submit" value="Submit message" onClick={this.handleClick}>Submit</Button>
           </div>
           <ToastContainer />
         </form>
