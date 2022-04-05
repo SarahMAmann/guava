@@ -1,6 +1,6 @@
 # Guava landing page
 
-[Guava Tech](https://github.com/facebook/create-react-app)
+[Guava Tech](https://guavatech.io)
 
 🦄
 
