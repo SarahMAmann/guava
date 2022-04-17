@@ -73,7 +73,7 @@ const FeaturesSplit = ({
                   Aaron McGrean
                   </h3>
                 <p className="m-0" style={{fontFamily: 'Courier New'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua — Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Aaron is a market consultant and entrepreneur with 15+ years of experience. As a business systems engineer, he advises company executives on best practices in several areas including efficient technology utilization, operational risk compliance, and informed investment decisions. He is enthusiastic about helping others utilize web3 technologies for their business ideas.
                   </p>
               </div>
               <div className={
@@ -83,7 +83,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/profile-image.png')}
+                  src={require('./../../assets/images/aaron.jpeg')}
                   alt="Features split 01"
                   width={528}
                   height={396}
