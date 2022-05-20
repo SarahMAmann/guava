@@ -62,14 +62,14 @@ const Testimonial = ({
               <div className="tiles-item-inner" style={{borderRadius: '10px', backgroundColor: '#BD96ED', color: 'white'}}>
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — They [guava team] are extremely informative... Definitely going to be my go to.
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Roman Level</span>
+                  <span className="testimonial-item-name text-color-high">Justin Botillier</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0" style={{color: '#6163FF'}}>AppName</a>
+                    <a href="#0" style={{color: '#6163FF'}}>CPA</a>
                   </span>
                 </div>
               </div>
@@ -79,20 +79,20 @@ const Testimonial = ({
               <div className="tiles-item-inner" style={{borderRadius: '10px', backgroundColor: '#BD96ED', color: 'white'}}>
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    — Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum cillum dolore eu fugiat.
+                    — The team is extremely knowledgeable - it's obvious they live and breathe Web3, based on the sheer amount of conversational knowledge they have about current trends and technologies. If you have any, ANY, ideas that might need some Web3 tech, they are the ones to talk to. Thank you so much for the time and wisdom!
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
-                  <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
+                  <span className="testimonial-item-name text-color-high">Rick Plautz</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0" style={{color: '#6163FF'}}>AppName</a>
+                    <a href="#0" style={{color: '#6163FF'}}>Motion Designer</a>
                   </span>
                 </div>
               </div>
             </div>
 
-            <div className="tiles-item reveal-from-left" data-reveal-delay="200">
+            {/* <div className="tiles-item reveal-from-left" data-reveal-delay="200">
               <div className="tiles-item-inner" style={{borderRadius: '10px', backgroundColor: '#BD96ED', color: 'white'}}>
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
@@ -107,7 +107,7 @@ const Testimonial = ({
                   </span>
                 </div>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
