@@ -114,6 +114,9 @@ const Header = ({
                     <li>
                      <a href="https://twitter.com/guavatech_io" target="_blank" rel="noopener noreferrer" onClick={closeMenu} style={{color: '#EFBC39'}}>Follow Us</a>
                     </li>
+                    <li>
+                     <a href="https://medium.com/@guavatech" target="_blank" rel="noopener noreferrer" onClick={closeMenu} style={{color: '#EFBC39'}}>Blog</a>
+                    </li>
                   </ul>
                   {!hideSignin &&
                     <ul
