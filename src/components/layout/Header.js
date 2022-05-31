@@ -123,7 +123,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Button tag="a" href="#about" className="button button-primary button-wide-mobile button-sm">About</Button>
+                        <Button tag="a" href="https://app.guavatech.io/" target="_blank" rel="noopener noreferrer" className="button button-primary button-wide-mobile button-sm">Launch App</Button>
                       </li>
                     </ul>}
                 </div>
