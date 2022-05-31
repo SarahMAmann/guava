@@ -82,12 +82,14 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                <Image
-                  src={require('./../../assets/images/aaron.jpeg')}
+                  <img alt="Aaron headshot" src={require('./../../assets/images/aaron_guava_headshot.jpg')}
+                  style={{height: '300px', width: '350px', borderRadius: '50%'}} />
+                {/* <Image
+                  src={require('./../../assets/images/aaron_guava_headshot.jpg')}
                   alt="Features split 01"
-                  width={528}
-                  height={396}
-                  style={{height: '200', width: '300px', borderRadius: '50%'}} />
+                  width={588}
+                  height={476}
+                  style={{height: '200', width: '300px', borderRadius: '50%'}} /> */}
               </div>
             </div>
 
@@ -109,8 +111,8 @@ const FeaturesSplit = ({
                   imageFill && 'split-item-image-fill'
                 )}
                 data-reveal-container=".split-item">
-                  <img alt="Sarah headshot" src={require('./../../assets/images/sarah.jpg')}
-                  style={{height: '300px', width: '300px', borderRadius: '50%'}} />
+                  <img alt="Sarah headshot" src={require('./../../assets/images/sarah_guava_headshot.jpg')}
+                  style={{height: '300px', width: '350px', borderRadius: '50%'}} />
                 {/* <Image
                   src={require('./../../assets/images/sarah.JPEG')}
                   alt="Features split 02"
