@@ -34,9 +34,9 @@ class Contact extends React.Component {
           <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="text" placeholder="Location/Timezone" name="timezone" id="timezone" required />
           </div>
-          <div style={{marginTop: '20px'}}>
+          {/* <div style={{marginTop: '20px'}}>
             <Select name="callType" id="callType" required options={options} placeholder={'I\'m interested in...'} />
-          </div>
+          </div> */}
           <div style={{marginTop: '20px'}}>
             <Input style={{borderRadius: '4px'}} type="textarea" name="message" id="message" placeholder="Message" required />
           </div>
