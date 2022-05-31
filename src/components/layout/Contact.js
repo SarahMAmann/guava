@@ -1,7 +1,7 @@
 import React from 'react'
 import Input from '../elements/Input';
 import Button from '../elements/Button';
-import Select from 'react-select';
+// import Select from 'react-select';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -9,16 +9,16 @@ import 'react-toastify/dist/ReactToastify.css';
 
 class Contact extends React.Component {
   render() {
-    const options = [
-        {
-          label: '30-minute consulting session',
-          value: 'thirty'
-        },
-        {
-          label: 'Discovery call to learn more about long term consulting partnerships',
-          value: 'discovery'
-        }
-      ];
+    // const options = [
+    //     {
+    //       label: '30-minute consulting session',
+    //       value: 'thirty'
+    //     },
+    //     {
+    //       label: 'Discovery call to learn more about long term consulting partnerships',
+    //       value: 'discovery'
+    //     }
+    //   ];
     return (
         <form name="contact" action="/success" method="POST" data-netlify="true" netlify-honeypot="bot-field" >
             <input type="hidden" name="form-name" value="contact" />
