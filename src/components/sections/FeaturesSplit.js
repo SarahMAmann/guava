@@ -102,7 +102,7 @@ const FeaturesSplit = ({
                   Sarah Benson
                   </h3>
                 <p className="m-0" style={{fontFamily: 'Courier New'}}>
-                  Sarah is a software engineer with 5+ years of involvement in the blockchain industry. She is a core team member at a DeFi options trading startup, and contributes to a number of web3 projects in consulting and developer advocacy roles. She also creates educational blockchain content on social media.
+                  Sarah is a software engineer with 5+ years of experience in the blockchain industry. She is a core team member at a DeFi options trading company, and contributes to a number of web3 projects in consulting and developer advocacy roles. She also creates educational blockchain content on social media.
                   </p>
               </div>
               <div className={
