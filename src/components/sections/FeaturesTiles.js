@@ -44,8 +44,8 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'We help you build for the ',
-    emphasis: 'metaverse.',
+    title: 'We help you build for a ',
+    emphasis: 'decentralized future.',
     paragraph: 'Experienced insight that helps you capture the potential of a rapidly changing digital landscape.'
   };
 
@@ -116,10 +116,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Metaverse Marketing
+                    Marketing
                   </h4>
                   <p className="m-0 text-sm">
-                    Marketing is different in the metaverse. We can help you navigate the new <span style={{fontFamily: 'bradley hand'}}>vibe</span> with an approach to digital marketing that puts building strong communities first.
+                    Marketing is different in web3. We can help you navigate the new <span style={{fontFamily: 'bradley hand'}}>vibe</span> with an approach to digital marketing that puts building strong communities first.
                   </p>
                 </div>
               </div>

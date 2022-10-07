@@ -72,7 +72,7 @@ const FeaturesSplit = ({
                 <h3 className="mt-0 mb-12">
                   Aaron McGrean
                   </h3>
-                <p className="m-0" style={{fontFamily: 'Courier New'}}>
+                <p className="m-0 text-xs" style={{fontFamily: 'Courier New'}}>
                   Aaron is a market consultant and entrepreneur with 15+ years of experience. As a business systems engineer, he advises company executives on best practices in several areas including efficient technology utilization, operational risk compliance, and informed investment decisions. He is enthusiastic about helping others utilize web3 technologies for their business ideas.
                   </p>
               </div>
@@ -101,7 +101,7 @@ const FeaturesSplit = ({
                 <h3 className="mt-0 mb-12">
                   Sarah Benson
                   </h3>
-                <p className="m-0" style={{fontFamily: 'Courier New'}}>
+                <p className="m-0 text-xs" style={{fontFamily: 'Courier New'}}>
                   Sarah is a software engineer with 5+ years of experience in the blockchain industry. She is a core team member at a DeFi options trading company, and contributes to a number of web3 projects in consulting and developer advocacy roles. She also creates educational blockchain content on social media.
                   </p>
               </div>
