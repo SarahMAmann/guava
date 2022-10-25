@@ -45,7 +45,7 @@ const Testimonial = ({
 
   const sectionHeader = {
     title: 'What Our Clients Say',
-    paragraph: 'Why we do what we do. We\'re here to make sure your web3 project is a success!'
+    paragraph: 'Why we do what we do. We\'re here to make sure your project is a success!'
   };
 
   return (

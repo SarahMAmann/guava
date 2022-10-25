@@ -65,8 +65,8 @@ const Hero = ({
               {/* <span className="text-color-primary">Tech</span> */}
             </h1>
             <div >
-              <p style={{fontFamily: 'Courier New', fontSize: '180%', fontWeight: 'bold', color: 'white'}} className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Web3 Technology Consulting
+              <p style={{fontFamily: 'Courier New', fontSize: '150%', fontWeight: 'bold', color: 'white'}} className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
+                Custom Software Solutions
                 </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>

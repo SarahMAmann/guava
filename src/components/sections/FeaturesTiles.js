@@ -44,9 +44,9 @@ const FeaturesTiles = ({
   );
 
   const sectionHeader = {
-    title: 'We help you build for a ',
-    emphasis: 'decentralized future.',
-    paragraph: 'Experienced insight that helps you capture the potential of a rapidly changing digital landscape.'
+    title: 'We help you build for the ',
+    emphasis: 'future.',
+    paragraph: 'Application development for early stage startups. Specializing in web3 solutions.'
   };
 
   return (
@@ -64,7 +64,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/blue.png')}
+                      src={require('./../../assets/images/pink.png')}
                       alt="Features tile icon 01"
                       width={64}
                       height={64} />
@@ -72,10 +72,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Web3 Coaching
+                    Web & Mobile Development
                   </h4>
                   <p className="m-0 text-sm">
-                    Not sure what to do next? We help you achieve your project goals and give you access to our partner companies in various web3 industries to get the job done.
+                    {/* Not sure what to do next? We help you achieve your project goals and give you access to our partner companies in various web3 industries to get the job done. */}
                   </p>
                 </div>
               </div>
@@ -86,7 +86,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/pink.png')}
+                      src={require('./../../assets/images/blue.png')}
                       alt="Features tile icon 02"
                       width={64}
                       height={64} />
@@ -94,10 +94,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Accessibility
+                    Smart Contracts
                   </h4>
                   <p className="m-0 text-sm">
-                    We believe web3 is for everyone! That’s why we have options for both small and large scale projects, and offer advice for all knowledge levels.
+                    {/* We believe web3 is for everyone! That’s why we have options for both small and large scale projects, and offer advice for all knowledge levels. */}
                   </p>
                 </div>
               </div>
@@ -108,7 +108,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/purple.png')}
+                      src={require('./../../assets/images/yellow.png')}
                       alt="Features tile icon 03"
                       width={64}
                       height={64} />
@@ -116,10 +116,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Marketing
+                    Token Engineering
                   </h4>
                   <p className="m-0 text-sm">
-                    Marketing is different in web3. We can help you navigate the new <span style={{fontFamily: 'bradley hand'}}>vibe</span> with an approach to digital marketing that puts building strong communities first.
+                    {/* Marketing is different in web3. We can help you navigate the new <span style={{fontFamily: 'bradley hand'}}>vibe</span> with an approach to digital marketing that puts building strong communities first. */}
                   </p>
                 </div>
               </div>
@@ -130,7 +130,7 @@ const FeaturesTiles = ({
                 <div className="features-tiles-item-header">
                   <div className="features-tiles-item-image mb-16">
                     <Image
-                      src={require('./../../assets/images/yellow.png')}
+                      src={require('./../../assets/images/purple.png')}
                       alt="Features tile icon 04"
                       width={64}
                       height={64} />
@@ -138,10 +138,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    NFT Projects
+                    Payment Solutions
                   </h4>
                   <p className="m-0 text-sm">
-                    From sourcing a team to organizing a successful launch, we help you create a roadmap to a drop that maximizes your revenue potential and offers brand new channels to connect with your community.
+                    {/* From sourcing a team to organizing a successful launch, we help you create a roadmap to a drop that maximizes your revenue potential and offers brand new channels to connect with your community. */}
                   </p>
                 </div>
               </div>
@@ -160,10 +160,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    DAOs
+                    User Experience Design
                   </h4>
                   <p className="m-0 text-sm">
-                    We help you determine if a DAO is the right choice for your project, and cut through all the noise to find the right tools and resources you need to build a long-lasting organization.
+                    {/* We help you determine if a DAO is the right choice for your project, and cut through all the noise to find the right tools and resources you need to build a long-lasting organization. */}
                   </p>
                 </div>
               </div>
@@ -182,10 +182,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                    Technology
+                    DAOs & NFT Projects
                   </h4>
                   <p className="m-0 text-sm">
-                    Gain or improve your understanding in web3 software with our firsthand experience in everything from development systems to cost so you can make the right choices for your project.
+                    {/* Gain or improve your understanding in web3 software with our firsthand experience in everything from development systems to cost so you can make the right choices for your project. */}
                   </p>
                 </div>
               </div>
