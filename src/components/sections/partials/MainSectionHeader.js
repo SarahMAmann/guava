@@ -46,7 +46,7 @@ const MainSectionHeader = ({
                 classNames(
                   'mt-0',
                   data.paragraph ? 'mb-16' : 'mb-0'
-                )}>{data.title}<span className="test">{data.emphasis}</span></Component>
+                )}>{data.title}<span className="rainbow">{data.emphasis}</span></Component>
             }
             {data.paragraph &&
               <p className="m-0">{data.paragraph}</p>

@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import Logo from './partials/Logo';
-import Button from '../elements/Button';
 
 const propTypes = {
   navPosition: PropTypes.string,
@@ -79,13 +78,14 @@ const Header = ({
       {...props}
       className={classes}
     >
-      <div className="container">
+      <div className="px-[5%]">
         <div className={
           classNames(
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <Logo />
+          <div className="font-bold mr-2">Guava</div>
+          <Logo className="invisible sm:visible" />
           {!hideNav &&
             <>
               <button
@@ -123,7 +123,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <Button tag="a" href="https://app.guavatech.io/" target="_blank" rel="noopener noreferrer" className="button button-primary button-wide-mobile button-sm">Launch App</Button>
+                        {/* <Button tag="a" href="https://app.guavatech.io/" target="_blank" rel="noopener noreferrer" className="button button-primary button-wide-mobile button-sm">Launch App</Button> */}
                       </li>
                     </ul>}
                 </div>

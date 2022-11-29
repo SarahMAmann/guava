@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import Contact from '../layout/Contact';
 
 const sectionHeader = {
-  title: 'Tell Us About Your Project',
+  title: 'Contact',
   paragraph: ''
 };
 

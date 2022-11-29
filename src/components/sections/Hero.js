@@ -1,118 +1,47 @@
-import React, { useState } from 'react';
-import classNames from 'classnames';
-import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
+import React from 'react';
 import Image from '../elements/Image';
-import Modal from '../elements/Modal';
 
-const propTypes = {
-  ...SectionProps.types
-}
+const Hero = () => {
 
-const defaultProps = {
-  ...SectionProps.defaults
-}
-
-const Hero = ({
-  className,
-  topOuterDivider,
-  bottomOuterDivider,
-  topDivider,
-  bottomDivider,
-  hasBgColor,
-  invertColor,
-  ...props
-}) => {
-
-  const [videoModalActive, setVideomodalactive] = useState(false);
-
-  // const openModal = (e) => {
-  //   e.preventDefault();
-  //   setVideomodalactive(true);
-  // }
-
-  const closeModal = (e) => {
-    e.preventDefault();
-    setVideomodalactive(false);
-  }   
-
-  const outerClasses = classNames(
-    'hero section center-content',
-    topOuterDivider && 'has-top-divider',
-    bottomOuterDivider && 'has-bottom-divider',
-    hasBgColor && 'has-bg-color',
-    invertColor && 'invert-color',
-    className
-  );
-
-  const innerClasses = classNames(
-    'hero-inner section-inner',
-    topDivider && 'has-top-divider',
-    bottomDivider && 'has-bottom-divider'
-  );
 
   return (
-    <section
-      {...props}
-      className={outerClasses}
-    >
-      <div className="container-sm">
-        <div className={innerClasses}>
-          <div className="hero-content">
-            <h1 style={{fontSize: '500%', paddingBottom: '5%'}} className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-              guava
-              {/* <span className="text-color-primary">Tech</span> */}
-            </h1>
-            <div >
-              <p style={{fontFamily: 'Courier New', fontSize: '150%', fontWeight: 'bold', color: 'white'}} className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Custom Software Solutions
-                </p>
-              <div className="reveal-from-bottom" data-reveal-delay="600">
-                <ButtonGroup>
-                  <Button tag="a" color="primary" wideMobile href="#contactSection" style={{borderRadius: '4px'}}>
-                    Get started
-                    </Button>
-                  {/* <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/" style={{borderRadius: '4px'}}>
-                    View on Github
-                    </Button> */}
-                </ButtonGroup>
+    <div className="relative overflow-hidden">
+
+      <main>
+        <div className="bg-gray-900 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-20 h-screen">
+          <div className="pt-[5%] md:ml-[5%] lg:ml-none mx-auto max-w-7xl lg:px-8 reveal-from-bottom" data-reveal-delay="200">
+            <div className="mt-10 lg:grid lg:grid-cols-2 lg:gap-8">
+              <div className="mx-auto max-w-md px-4 sm:max-w-2xl sm:px-6 sm:text-center lg:flex lg:items-center lg:px-0 lg:text-left">
+                <div className="lg:py-24">
+                  <h1 className="mt-4 text-4xl font-bold tracking-tight text-white sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl">
+                    <span className="block">custom software</span>
+                    <span className="rainbow block">solutions</span>
+                  </h1>
+                  <p className="mt-3 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
+                  Helping businesses build for the future.
+                  </p>
+                  <div className="mt-10 sm:mt-12">
+                  </div>
+                </div>
+              </div>
+              <div className="mt-12">
+                  {/* Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ */}
+                  <Image
+                    height={500}
+                    width={500}
+                    // className="w-full lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                    // src="https://tailwindui.com/img/component-images/cloud-illustration-indigo-400.svg"
+                    src={require('./../../assets/images/guava-logo.png')}
+                    alt="guava fruit"
+                  />
               </div>
             </div>
           </div>
-          <div className="hero-figure reveal-from-bottom illustration-element-01" data-reveal-value="20px" data-reveal-delay="800">
-            {/* <a
-              data-video="https://player.vimeo.com/video/174002812"
-              href="#0"
-              aria-controls="video-modal"
-              onClick={openModal}
-            >
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
-                alt="Hero"
-                width={896}
-                height={504} />
-            </a> */}
-              <Image
-                src={require('./../../assets/images/guava-logo.png')}
-                alt="Guava fruit"
-                width={250}
-                height={250} />
-          </div>
-          <Modal
-            id="video-modal"
-            show={videoModalActive}
-            handleClose={closeModal}
-            video="https://player.vimeo.com/video/174002812"
-            videoTag="iframe" />
         </div>
-      </div>
-    </section>
+      </main>
+
+    </div>
   );
 }
-
-Hero.propTypes = propTypes;
-Hero.defaultProps = defaultProps;
 
 export default Hero;
