@@ -17,18 +17,18 @@ const people = [
         twitterUrl: 'https://twitter.com/itssarahbenzo',
         linkedinUrl: 'https://www.linkedin.com/in/sarah-marie-benson/',
     },
-    {
-        name: 'Adebayo',
-        role: 'Developer',
-        imageUrl: require('./../../assets/images/adebayo.jpeg'),
-        twitterUrl: 'https://twitter.com/Oleanji_sol',
-    },
-    {
-        name: 'Abhishek',
-        role: 'Communications',
-        imageUrl: require('./../../assets/images/abhishek-cropped.png'),
-        twitterUrl: 'https://twitter.com/cryptokonvo',
-      }
+    // {
+    //     name: 'Adebayo',
+    //     role: 'Developer',
+    //     imageUrl: require('./../../assets/images/adebayo.jpeg'),
+    //     twitterUrl: 'https://twitter.com/Oleanji_sol',
+    // },
+    // {
+    //     name: 'Abhishek',
+    //     role: 'Communications',
+    //     imageUrl: require('./../../assets/images/abhishek-cropped.png'),
+    //     twitterUrl: 'https://twitter.com/cryptokonvo',
+    //   }
   ]
   
   export function Staff() {
